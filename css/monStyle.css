@@ -1,0 +1,25 @@
+/* Style des onglets */
+.tabs {
+    display: flex;
+  }
+  
+  .tablink {
+    background-color: #f1f1f1;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .tablink:hover {
+    background-color: #ddd;
+  }
+  
+  /* Masquer les contenus des onglets par défaut */
+  .tabcontent {
+    display: none;
+  }
+  
+  /* Afficher le contenu de l'onglet actif */
+  .tabcontent.show {
+    display: block;
+  }
